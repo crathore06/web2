@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="text/javascript">
+            var number = prompt("Please enter a number");
+            var temp = number;
+            var sum = 0;
+            while(temp>0){
+                // 153/10 =3
+                console.log(temp);
+                var digit = temp%10;
+                console.log(digit);
+                console.log(digit**3);
+                sum += digit**3;
+                console.log("Sum"+sum);
+                temp = parseInt(temp/10);
+                console.log(temp);
+                console.log('--------');
+            }  
+            if(sum == number){
+                console.log(`${number} is an armstrong number`);
+            }             
+            else{
+                console.log(`${number} is not an armstrong number`);
+            }
+        </script>
+    </head>
+    <body></body>
+</html>

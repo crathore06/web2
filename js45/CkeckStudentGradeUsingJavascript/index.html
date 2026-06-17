@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <body>
+        <h2>Check Student Grade Using Javascript Objec t</h2>
+        <p id="output"></p>
+        <script>
+            let student={
+                name:"Aditya",
+                marks:90,
+                grade:""
+            };
+            if (student.marks >= 90) {
+                student.grade = "A";
+            } else if (student.marks >= 75) {
+                student.grade = "B";
+            } else if (student.marks >= 60) {
+                student.grade = "C";
+            } else {
+                student.grade = "D";
+            }
+
+            document.getElementById("output").innerText =
+            "Student Name: " + student.name +
+            "\n Marks:" + student.marks +
+            "\n Grade:" + student.grade;
+        </script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function displayMessage()
+            {
+                alert("Our First javascript program in execution!");
+            }
+        </script>
+
+        <script>
+            function showGreeting()
+            {
+                let name="Ankit";
+                let message="Hello" + name + "! Welcome to javaScript";
+                document.getElementById("greeting").innerHTML=message;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Welcome to javascript</h1>
+        <button onclick="displayMessage()">Click Me</button>
+
+        <p id="greeting"></p>
+        <button onclick="showGreeting()">Show greeting</button>
+
+        <h1>Button click counter using functions</h1>
+        <p id="counterDisplay">0</p>
+        <button onclick="incrementCounter()">Click to increment the counter!</button>
+        <script>
+            let clickCount=0;
+            function incrementCounter()
+            {
+                clickCount++;
+                document.getElementById("counterDisplay").textContent=clickCount;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <script type="text/javascript">
+            var string = prompt("Please enter a string");
+            var len = string.length;
+            var msg = 'It is  a Palidrome';
+            for(var i = 0; i < len/2 ; i++){
+                if(string[i] != string[len - 1 - i]){
+                    msg = 'It is not a Palidrome';
+                }
+            }
+            console.log(`${string}: ${msg}`);
+        </script>
+    </head>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="text/javascript">
+            var string = prompt("Please enter a string:");
+            console.log(string);
+            var testStart = string.startsWith('W');
+            var testEnd = string.endsWith('e');
+            if(testStart == true && testEnd == true){
+                console.log(`${string} start with W and ends with e`);
+            }
+            else if(testStart == true && testEnd == false){
+                console.log(`${string} starts with W`);
+            }
+            else if(testStart == false && testEnd == true){
+                console.log(`${string} ends with e`);
+            }
+            else{
+                console.log(`${string} neither strats with W nor ends with e`);
+            }
+        </script>
+    </head>
+</html>

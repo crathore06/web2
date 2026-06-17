@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="text/javascript">
+            var num1 = prompt("Please enter 1st number");
+            var num2 = prompt("Please enter 2st number");
+            var opr = prompt("Please select among +,-,x,/");
+            
+            switch(opr)
+            {
+                //if(opr == "+")
+                case "+":
+                    var res = parseFloat(num1) + parseFloat(num2);
+                    console.log(`${num1} + ${num2} = ${res}`);
+                    break;
+                //if(opr == "-")
+                case "-":
+                    var res = parseFloat(num1) + parseFloat(num2);
+                    console.log(`${num1} - ${num} = ${res}`);
+                    break;
+                //if(opr == "x")
+                case "x":
+                    var res = parseFloat(num1) * parseFloat(num2);
+                    console.log(`${num1} x ${num2} = ${res}`);
+                    break;
+                //if(opr == "/")
+                case "/":
+                    var res = parseFloat(num1) / parseFloat(num2);
+                    console.log(`${num1} / ${num2} = ${res}`);
+                    default:
+                        console.log('Invalid operator');
+            }
+        </script>
+    </head>
+    <body></body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="text/javascript">
+             function sum(num) {
+                if(num>0){
+                    return num + sum(num-1);
+                    // 5+ 4 + 3 + 2 + 1 + 0 = 15;
+                }
+                else{
+                    return num;
+                }
+             }
+             var res = sum(-50);
+             console.log(res);
+        </script>
+    </head>
+    <body></body>
+</html>

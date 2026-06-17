@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <h2>Loop Examples: for, while, and do...while</h2>
+        <p id="forLoop"></p>
+        <p id="whileLoop"></p>
+        <p id="doWhileLoop"></p>
+
+        <script>
+            let forOutput = "For Loop: ";
+            for (let i = 1; i <= 10; i++) {
+                forOutput += i + "";
+            }
+            document.getElementById("forLoop").innerText = forOutput;
+
+            let whileOutput = "While Loop: ";
+            let j = 2;
+            while (j <= 10) {
+                whileOutput += j + " ";
+                j +=2;
+            }
+            document.getElementById("whileLoop").innerText = whileOutput;
+
+            let doWhileOutput = "Do...While Loop: ";
+                let k = 10;
+                do {
+                    doWhileOutput += k + " ";
+                k--;
+            }   while (k >= 6);
+            document.getElementById("doWhileLoop").innerText = doWhileOutput;
+        </script>
+    </body>
+</html>
