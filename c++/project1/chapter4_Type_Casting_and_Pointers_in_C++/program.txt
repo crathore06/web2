@@ -1,0 +1,23 @@
+"""
+//Pointer_variable = new data_type;
+//where, pointer_variable is a pointer of a specific data type that stores the address of the newly allocated memory.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int*m = NULL; //Initially, m is a NULL pointer
+    m = new int; // Memory is dynamically allocated for an int and the address is stored in m
+    
+    //Or in one line:
+    int *m = new int;
+
+    /*
+    int * arr = new (std::nothrow) int[10];
+    if (!arr) {
+    //Handle allocation failure
+    std::cerr << "Memory allocation failed!" << std::endl;
+    }
+    */
+    return 0;
+}
+"""

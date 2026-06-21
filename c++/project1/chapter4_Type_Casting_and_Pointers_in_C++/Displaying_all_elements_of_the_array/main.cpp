@@ -1,0 +1,11 @@
+// displaying all elements of an array
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[5] = {1, 3, 5, 7, 9};
+    cout << "The array elements are: \n";
+    for (int i = 0; i<5; i++) {
+        cout << arr[i] << " ";
+    }
+    return 0;
+}
