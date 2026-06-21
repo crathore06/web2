@@ -9,5 +9,11 @@ int main(){
 
     //Update the 5th element (index 4) to a new value 
     arr[4] = 50;
+    cout << "\n 5th value of array after updation: \n" << arr[4] << endl;
+
+    cout << "The array elements are: \n";
+    for (int i = 0; i < 7; i++) {
+        cout << arr[i] << " ";
+    }
     return 0;
 }
