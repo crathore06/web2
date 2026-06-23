@@ -15,7 +15,7 @@ class Distance
     }
     void printdistance ()
     {
-        cout << feet << "ft" << inches << "inches" << endl;
+        cout << feet << " ft " << inches << " inches " << endl;
     }
 };
 int main(){
