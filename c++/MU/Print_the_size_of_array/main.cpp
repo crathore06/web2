@@ -10,9 +10,9 @@ int main(){
     int b = sizeof(numbers[0]);
 
     cout << "sizeof(numbers)= " << a << endl;
-    cout << "sizeof(numbers)= " << b << endl;
+    cout << "sizeof(numbers[0])= " << b << endl;
 
-    
+
     cout << "The size of the array is: " << size << endl; 
     return 0;
 }
